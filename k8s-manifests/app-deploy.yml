@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: nginx
+      - image: aksdevopsacr.azurecr.io/nginx
         name: nginx
         ports:
         - containerPort: 80
